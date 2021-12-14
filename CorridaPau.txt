@@ -1,0 +1,4 @@
+nano pau.s
+as -g -o pau.o pau.s
+g++ pau.o -o pau
+./pau
