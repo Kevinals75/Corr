@@ -1,0 +1,4 @@
+nano primo.s
+as -g -o primo.o primo.s
+ld -o primo primo.o 
+./primo
