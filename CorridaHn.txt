@@ -1,0 +1,4 @@
+nano hn.s
+as -g -o hn.o hn.s
+gcc -o hn hn.o
+./hn
