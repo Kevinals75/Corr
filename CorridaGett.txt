@@ -1,0 +1,4 @@
+nano gett.s
+as -g -o gett.o gett.s
+ld -o gett gett.o
+./gett
