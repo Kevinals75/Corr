@@ -1,0 +1,4 @@
+nano tecla.s
+as -g -o tecla.o tecla.s
+ld -o tecla tecla.o
+./tecla
