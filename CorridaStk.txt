@@ -1,0 +1,5 @@
+nano stk.s
+as -g -o stk.o stk.s
+ld -o stk stk.o
+./stk
+echo$?
